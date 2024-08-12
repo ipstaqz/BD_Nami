@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+
+
+    background-color: rgb(94, 0, 222);
+
+    height: 9vi;
+    width: 100%;
+
+    .head {
+
+        .logo {
+            img {
+                width: 10vw;
+            }
+
+            margin-left: 3rem;
+        }
+    }
+
+    .links {
+
+        position: absolute;
+        right: 3vi;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+
+        a {
+            background-color: #FFB5DA;
+
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.3rem;
+            padding-bottom: 0.3rem;
+            margin: 0.1rem;
+
+            border-radius: 7px;
+
+            color: #FF3EA5;
+
+            text-decoration: none;
+            font-family: AvenirLight;
+            font-size: 0.9rem;
+            font-weight: 1000;
+        }
+    }
+
+}
+
+.container_bienve {
+    background: linear-gradient(90deg, #8C01FF 0%, #FF01E0 100%);
+    display: flex;
+    /*height: 46vw;*/
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        font-family: "Varela Round", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 3.3rem;
+        color: #ff4dac;
+    }
+
+    p {
+        text-decoration: none;
+        font-family: AvenirLight;
+        font-size: 0.9rem;
+        font-weight: 1000;
+        color: #ff50ad;
+    }
+}
+
+.bienvenidos {
+    background: rgb(94, 0, 222);
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    width: 44vw;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+
+.kaboom_container {
+    background: linear-gradient(90deg, #4469E3 0%, #8C01FF 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    .kboom {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        height: 80vh;
+        
+        width: 90vw;
+
+
+        img{
+            height: 50vh;
+        }
+
+        h1 {
+            font-family: "Varela Round", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 3.3rem;
+            color: #ff4dac;
+        }
+    
+        p {
+            text-decoration: none;
+            font-family: AvenirLight;
+            font-size: 0.9rem;
+            font-weight: 1000;
+            color: #ff50ad;
+        }
+
+        .BD_container{
+            padding: 2rem;
+        }
+    }
+
+}
