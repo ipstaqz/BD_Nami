@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+
+
+    background-color: rgb(94, 0, 222);
+
+    height: 9vi;
+    width: 100%;
+
+    .head {
+
+        .logo {
+            img {
+                width: 10vw;
+            }
+
+            margin-left: 3rem;
+        }
+    }
+
+    .links {
+
+        position: absolute;
+        right: 3vi;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        background-color: rgba(219,219,219,0.72);
+        border-radius: 7px;
+
+        a {
+            
+
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            padding-top: 0.2rem;
+            padding-bottom: 0.4rem;
+            margin: 0.1rem;
+
+            
+
+            color: #FF3EA5;
+
+            text-decoration: none;
+            font-family: AvenirLight;
+            font-size: 0.9rem;
+            font-weight: 1000;
+        }
+
+        #lk_border{
+            border-right: 1px solid rgb(65,65,65);
+        }
+        #lk_inicio{
+            border-right: 1px solid rgb(65,65,65);
+            color: rgb(133, 35, 179);
+        }
+    }
+
+}
+
+.container_bienve {
+    /*background: linear-gradient(90deg, #8C01FF 0%, #FF01E0 100%);*/
+    /*height:200px;*/
+    background: rgb(189, 189, 189);
+    background: linear-gradient(90deg, rgba(140,1,255,1) 0%, rgba(170,1,247,1) 22%, rgba(204,1,240,1) 50%, rgba(226,0,232,1) 64%, rgba(196,0,255,1) 82%, rgba(182,0,255,1) 100%);
+    background-size: 300% 100%;
+    animation: gradient 5s ease infinite;
+
+    display: flex;
+    /*height: 46vw;*/
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        font-family: "Varela Round", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 3.3rem;
+        color: #ff4dac;
+    }
+
+    p {
+        text-decoration: none;
+        font-family: AvenirLight;
+        font-size: 0.9rem;
+        font-weight: 1000;
+        color: #ff50ad;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.bienvenidos {
+    background: rgb(94, 0, 222);
+    box-shadow: 0 5px 20px 0 rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+
+.kaboom_container {
+    background: linear-gradient(90deg, #4469E3 0%, #8C01FF 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    .kboom {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        height: 80vh;
+        
+        width: 90vw;
+
+
+        img{
+            height: 70vh;
+            width: 30vw;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-family: "Varela Round", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 3.3rem;
+            color: #ff4dac;
+        }
+    
+        p {
+            text-decoration: none;
+            font-family: AvenirLight;
+            font-size: 0.9rem;
+            font-weight: 1000;
+            color: #ff50ad;
+        }
+
+        .BD_container{
+            padding: 2rem;
+        }
+    }
+
+}
