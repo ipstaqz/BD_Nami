@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "AvenirLight";
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff2") format("woff2"), url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff") format("woff");
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HublishRedux Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('HublishRedux Regular'), url('fonts/hublishreduxRC3.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Hub Oishii Custom';
+    src: local('Hub Oishii Custom Medium'), url('fonts/Hub-Oishii-Custom-Medium.ttf') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Hub Oishii Custom';
+    src: local('Hub Oishii Custom Black'), url('fonts/Hub-Oishii-Custom-Black.ttf') format('woff');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Hublese P';
+    src: local('Hublese P Bold'), url('fonts/Hublese-P-Bold.ttf') format('woff');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Hublese P';
+    src: local('Hublese P'), url('fonts/Hublese-P.ttf') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Cennerik';
+    src: local('Cennerik Bold'), url('fonts/Cennerik-Bold.ttf') format('woff');
+    font-style:normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Cennerik';
+    src: local('Cennerik Extra Bold'), url('fonts/Cennerik-ExtraBold.ttf') format('woff');
+    font-weight: 800;
+    font-style: bolder;
+  }
+
