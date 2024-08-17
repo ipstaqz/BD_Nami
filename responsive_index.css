@@ -1,0 +1,280 @@
+@media screen and (max-width: 1100px) {
+
+    .menu {
+
+
+        .head {
+
+            .logo {
+                img {
+                    width: 20vw;
+                }
+
+                margin-left: 3rem;
+            }
+        }
+    }
+
+    .container_bienve {
+
+        .bienvenidos {
+
+            padding-left: 4vw;
+            padding-right: 4vw;
+            padding-top: 8vw;
+            padding-bottom: 12vw;
+
+            margin: 5%;
+
+            h1 {
+                font-size: 6.5vw;
+            }
+
+            p {
+                font-size: 2.5vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+
+
+    .sidenav {
+        display: none;
+    }
+
+    .menu {
+        height: 15vw;
+
+        .head {
+            .logo {
+                img {
+                    width: 15vw;
+                }
+
+                margin-left: 3rem;
+            }
+        }
+
+        .btn_menu {
+            input {
+                display: none;
+            }
+        }
+    }
+
+    .container_bienve {
+
+        .bienvenidos {
+
+            padding-left: 8vw;
+            padding-right: 8vw;
+            padding-top: 12vw;
+            padding-bottom: 30vw;
+
+            margin: 5%;
+
+            h1 {
+                font-size: 10vw;
+            }
+
+            p {
+                font-size: 5vw;
+            }
+        }
+    }
+
+    .kaboom_container {
+        .kboom {
+
+            flex-direction: column;
+
+            padding-top: 7vw;
+            padding-bottom: 7vw;
+            padding-left: 3vw;
+            padding-right: 3vw;
+
+            img {
+                width: 70vw;
+            }
+
+            .BD_container {
+                padding-left: 0;
+                padding-top: 6vw;
+
+                h1 {
+                    font-size: 10vw;
+                }
+
+                p {
+                    font-size: 4.5vw;
+                }
+            }
+        }
+    }
+
+    .extra {
+        padding: 10vh;
+        height: 15vh;
+
+        h1 {
+            font-size: 4vw;
+        }
+
+        p {
+            font-size: 3vw
+        }
+    }
+
+    .container_articulos {
+
+        .articulo {
+            flex-direction: column;
+
+            .img_art_cont {
+                img {
+                    border-radius: 10px;
+                    padding-top: 2vw;
+                    height: 40vw;
+                }
+            }
+
+            h1{
+                padding-top: 3vw;
+                font-size: 4vw;
+            }
+            p{
+                padding-top: 2vw;
+                font-size: 3vw;
+            }
+        }
+    }
+
+    footer{
+        flex-direction: column;
+        .right{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            float: left;
+            width: 100%;
+            top: 0;
+            margin: 0;
+            
+            p{
+                font-size: 3vw;
+                padding-top: 1vw;
+            }
+            #txt_siguenos {
+                font-size: 4.5vw;
+                padding-bottom: 1vw;
+            }
+            img{
+                height: 5vw;
+            }
+        }
+
+
+        .left{
+            margin-top: 5vw;
+            padding-top: 5vw;
+            text-align: justify;
+            width: 100%;
+            margin: 0;
+            float: right;
+
+            p{
+                font-size: 3vw;
+            }
+        }
+    }
+
+    .ipstaqz{
+        h1{
+            font-size: 3.5vw;
+            padding-top: 1vw;
+            padding-bottom: 1vw;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .overlay a{
+        font-size: 9vw;
+    }
+
+    .menu {
+        height: 20vw;
+
+        .head {
+
+            .logo {
+                img {
+                    margin: 1vw;
+                    width: 25vw;
+                }
+
+                margin-left: 0.5rem;
+            }
+        }
+    }
+
+    .container_bienve {
+        .bienvenidos {
+
+            padding-left: 8vw;
+            padding-right: 8vw;
+            padding-top: 20vw;
+            padding-bottom: 30vw;
+
+            margin: 5vw;
+
+            h1 {
+                font-size: 12vw;
+            }
+
+            p {
+                font-size: 6vw;
+            }
+        }
+    }
+
+    .extra {
+        padding: 3vw;
+        height: 15vh;
+
+        h1 {
+            font-size: 4vw;
+        }
+
+        p {
+            font-size: 3vw
+        }
+    }
+
+    .container_articulos {
+
+        .articulo {
+            flex-direction: column;
+
+            .img_art_cont {
+                img {
+                    padding-top: 2vw;
+                    height: 50vw;
+                }
+            }
+
+            h1{
+                padding-top: 3vw;
+                font-size: 5vw;
+            }
+            p{
+                padding-top: 2vw;
+                font-size: 4vw;
+            }
+        }
+    }
+}
