@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-texto: #FF3EA5;
+    /*--color-fondo: #280069;*/
+    /*--color-texto: #FFB1CA;*/
+    /*--color-fondo: #6800DE;*/
+    --color-fondo: #2C0065;
+
+    --title-font: 'Cennerik';
+    --text-font: 'Hub Oishii Custom';
+}
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+
+    background-color: var(--color-fondo);
+
+    height: 8vw;
+    width: 100%;
+
+    .head {
+        
+        /*display: flex;*/
+
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        .logo {
+
+            img {
+                width: 10vw;
+            }
+
+            margin-left: 3rem;
+        }
+    }
+
+    .btn_menu {
+        position: absolute;
+
+        right: 3vi;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        /*background-color: #ecc7dc;*/
+        border-radius: 7px;
+
+        input {
+            font-family: Hub Oishii Custom;
+            font-size: 2em;
+            /*color: var(--color-texto);*/
+
+            width: 10em;
+            height: 1em;
+
+            background: rgba(0, 0, 0, 0);
+            border: 1px solid #D9D1FE;
+            border-radius: 5px;
+            outline: none;
+            margin-right: 4em;
+        }
+
+        a {
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            padding-top: 0.2rem;
+            padding-bottom: 0.4rem;
+
+            margin: 0.1rem;
+
+            color: var(--color-texto);
+
+            font-family: var(--text-font);
+            font-size: 1.05em;
+            font-weight: medium;
+
+            text-decoration: none;
+        }
+
+        /*#lk_border {
+            border-right: 1px solid rgb(65, 65, 65);
+        }*/
+
+        #lk_inicio {
+            /*border-right: 1px solid rgb(65, 65, 65);*/
+            color: #ffffff;
+        }
+    }
+
+}
+
+
+.background-container{
+    background: #4a00aa;
+    padding: 6vi;
+
+    .whatIs{
+        margin-top: 8vw;
+        background: #FF3EA5;
+        padding:7.8vi;
+
+        h1{
+            font-family: var(--title-font);
+            color: #ffffff;
+            font-size: 3vi;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        p{
+            font-family: var(--text-font);
+            color: var(--color-fondo);
+            font-size: 1.5vi;
+            margin-top: 2.5vi;
+            margin-bottom: 2.5vi;
+            /*letter-spacing: 1vi;*/
+            line-height: 2.7vi;
+        }
+    }
+
+    .meetTeam{
+        h1{
+            color: white;
+            font-family: var(--title-font);
+            font-size: 4.2vi;
+        }
+        p{
+            color: white;
+            font-family: var(--text-font);
+            font-size: 1.3vi;
+        }
+    }
+}
+
+ 
